@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.home{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137)), url(assets/images/cidade-de-dia.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+.section-1 {
+    padding: 5rem;
+    text-align: center;
+}
+
+.section-img-1 {
+    position: relative;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137)), url(assets/images/bolhas.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 20rem;
+
+}
+.section-img-2 {
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137)), url(assets/images/cidade-pela-noite.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 20rem;
+
+}
+
+.section-2 {
+    background-color: #1a1f24;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    height: 100%;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137)), url(assets/images/cidade-de-dia.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-1, .title-2, .title-3, .title-4, .title-5{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.title-home-footer {
+    display: inline-block;
+    background-color: #2a2b2ed3;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.068);
+}
